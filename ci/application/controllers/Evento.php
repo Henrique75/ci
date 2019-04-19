@@ -59,6 +59,10 @@ class Evento extends CI_Controller {
         $this->load->model('Tb_evento_model');
         $this->Tb_evento_model->eve_id = $_POST["ident_id"];
         $this->Tb_evento_model->eve_nome = $_POST["nome_evento"];
+        $this->Tb_evento_model->eve_descricao = $_POST["descricao"];
+        $this->Tb_evento_model->eve_data_inicio = $_POST["data_inicio"];
+        $this->Tb_evento_model->eve_data_fim = $_POST["data_termino"];
+        $this->Tb_evento_model->eve_aberto = $_POST["eve_aberto"];
         $this->Tb_evento_model->atualizar_evento();
         redirect('evento/evento_listar');
     }
@@ -91,6 +95,33 @@ class Evento extends CI_Controller {
         $this->load->view('template/nav');
         $this->load->view('template/aside');
         $this->load->view('evento/evento_listar');
+        $this->load->view('template/text_footer');
+        $this->load->view('template/aside_config');
+        $this->load->view('template/footer');
+    }
+    
+    public function evento_ver() {
+        $this->load->model('Tb_evento_model');
+        $eve_id = $this->uri->segment(3);
+        $dados['eventos'] = $this->Tb_evento_model->recuperar_evento($eve_id);
+
+        $dados['titulo'] = "SiGE";
+        $dados['titulo_pagina'] = "Evento";
+        $dados['pag_login'] = "login";
+        $dados['pag_principal'] = "principal";
+//        $this->load->view('welcome_message');        
+        #links de páginas
+        $dados['pag_login'] = "login";
+        $dados['pag_principal'] = "principal";
+        $dados['pag_logout'] = "login/logout";
+        $dados['pag_novo'] = "cadastro/novo";
+        $dados['pag_membro'] = "cadastro/membro";
+        $dados['pag_voluntario'] = "cadastro/voluntario";
+
+        $this->load->view('template/header', $dados);
+        $this->load->view('template/nav');
+        $this->load->view('template/aside');
+        $this->load->view('evento/evento_ver');
         $this->load->view('template/text_footer');
         $this->load->view('template/aside_config');
         $this->load->view('template/footer');

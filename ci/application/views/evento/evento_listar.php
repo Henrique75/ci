@@ -47,7 +47,7 @@
                                         <td><?php echo $ev->eve_datacadastro; ?></td>                                         
                                         <td><?php echo ( $ev->eve_aberto == 0 ? "Sim" : "Não" ); ?></td>
                                         <td><div class="btn-group">
-                                                <a href="<?= base_url() ?>evento/" ><button type="button" class="btn btn-success"><i class="fa fa-eye"></i></button></a>
+                                                <a href="<?= base_url() ?>evento/evento_ver/<?= $ev->eve_id ?>" ><button type="button" class="btn btn-success"><i class="fa fa-eye"></i></button></a>
                                                 <a href="<?= base_url() ?>evento/evento_editar/<?= $ev->eve_id ?>" ><button type="button" class="btn btn-warning"><i class="fa fa-pencil-square-o"></i></button></a>
                                                 <a href="<?= base_url() ?>evento/evento_excluir/<?= $ev->eve_id ?>"><button type="button" class="btn btn-danger"><i class="fa fa-close"></i></button></a>
                                             </div></td>

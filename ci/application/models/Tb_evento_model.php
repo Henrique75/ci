@@ -38,6 +38,10 @@ class Tb_evento_model extends CI_Model {
 
     public function atualizar_evento() {
         $this->db->set('eve_nome', $this->eve_nome);
+        $this->db->set('eve_descricao', $this->eve_descricao);
+        $this->db->set('eve_data_inicio', $this->eve_data_inicio);
+        $this->db->set('eve_data_fim', $this->eve_data_fim);
+        $this->db->set('eve_aberto', $this->eve_aberto);
         $this->db->where('eve_id', $this->eve_id);
         $this->db->update('tb_evento');
     }
