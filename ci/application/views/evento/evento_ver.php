@@ -64,13 +64,13 @@
                                 <label>Evento será aberto?</label>
                                 <input type="text" value="<? echo ( $eventos->eve_aberto == 0 ? "Sim" : "Não" ); ?>" class="form-control" disabled>
                             </div>
-                            <input type="hidden" name="ident_id" value="<?php echo $eventos->eve_id; ?>"/>
+                            
                         </div>
                         
 
                         <div class="box-footer">
-                            <button type="submit" class="btn btn-primary">Voltar</button>
-                        </div>
+                            <button type="submit" class="btn btn-primary" onClick="window.history.back()">Voltar</button>
+                        </div"
                    
                 </div>
                 <!-- /.box -->
