@@ -70,7 +70,7 @@
 
                         <div class="box-footer">
                             <button type="submit" class="btn btn-primary" onClick="window.history.back()">Voltar</button>
-                        </div"
+                        </div>
                    
                 </div>
                 <!-- /.box -->
