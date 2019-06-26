@@ -8,8 +8,8 @@
             <small><?php echo ""; ?></small>
         </h1>
         <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li class="active">Dashboard</li>
+            <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+            <li class="active">Painel Principal</li>
         </ol>
     </section>
 
@@ -21,14 +21,14 @@
                 <!-- small box -->
                 <div class="small-box bg-aqua">
                     <div class="inner">
-                        <h3>150</h3>
+                        <h3>2</h3>
 
-                        <p>New Orders</p>
+                        <p>Eventos</p>
                     </div>
                     <div class="icon">
                         <i class="ion ion-bag"></i>
                     </div>
-                    <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                    <a href="#" class="small-box-footer">Mais Informações <i class="fa fa-arrow-circle-right"></i></a>
                 </div>
             </div>
             <!-- ./col -->
@@ -38,12 +38,12 @@
                     <div class="inner">
                         <h3>53<sup style="font-size: 20px">%</sup></h3>
 
-                        <p>Bounce Rate</p>
+                        <p>Inscrições Efetivadas</p>
                     </div>
                     <div class="icon">
                         <i class="ion ion-stats-bars"></i>
                     </div>
-                    <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                    <a href="#" class="small-box-footer">Mais Informações <i class="fa fa-arrow-circle-right"></i></a>
                 </div>
             </div>
             <!-- ./col -->
@@ -51,14 +51,14 @@
                 <!-- small box -->
                 <div class="small-box bg-yellow">
                     <div class="inner">
-                        <h3>44</h3>
+                        <h3>31</h3>
 
-                        <p>User Registrations</p>
+                        <p>Pedidos de Inscrições</p>
                     </div>
                     <div class="icon">
                         <i class="ion ion-person-add"></i>
                     </div>
-                    <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                    <a href="#" class="small-box-footer">Mais Informações <i class="fa fa-arrow-circle-right"></i></a>
                 </div>
             </div>
             <!-- ./col -->
@@ -68,12 +68,12 @@
                     <div class="inner">
                         <h3>65</h3>
 
-                        <p>Unique Visitors</p>
+                        <p>Total de Visitantes</p>
                     </div>
                     <div class="icon">
                         <i class="ion ion-pie-graph"></i>
                     </div>
-                    <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                    <a href="#" class="small-box-footer">Mais Informações <i class="fa fa-arrow-circle-right"></i></a>
                 </div>
             </div>
             <!-- ./col -->
@@ -115,7 +115,7 @@
                     <div class="box-header">
                         <i class="fa fa-calendar"></i>
 
-                        <h3 class="box-title">Calendar</h3>
+                        <h3 class="box-title">Calendário</h3>
                         <!-- tools box -->
                         <div class="pull-right box-tools">
                             <!-- button with a dropdown -->
@@ -123,10 +123,10 @@
                                 <button type="button" class="btn btn-success btn-sm dropdown-toggle" data-toggle="dropdown">
                                     <i class="fa fa-bars"></i></button>
                                 <ul class="dropdown-menu pull-right" role="menu">
-                                    <li><a href="#">Add new event</a></li>
-                                    <li><a href="#">Clear events</a></li>
+                                    <li><a href="#">Adicionar Evento</a></li>
+                                    <li><a href="#">Apagar Evento</a></li>
                                     <li class="divider"></li>
-                                    <li><a href="#">View calendar</a></li>
+                                    <li><a href="#">Ver Calendário</a></li>
                                 </ul>
                             </div>
                             <button type="button" class="btn btn-success btn-sm" data-widget="collapse"><i class="fa fa-minus"></i>

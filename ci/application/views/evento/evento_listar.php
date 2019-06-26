@@ -7,8 +7,8 @@
             <small>Listar todos</small>
         </h1>
         <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Painel</a></li>
+            <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+            <li><i class="fa fa-files-o"></i> Eventos</li>
             <li class="active">Listar Eventos</li>
         </ol>
     </section>

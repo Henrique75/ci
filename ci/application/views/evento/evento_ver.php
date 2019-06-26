@@ -7,8 +7,9 @@
             <small>Informações do evento</small>
         </h1>
         <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Eventos</a></li>
+            <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+            <li><i class="fa fa-files-o"></i> Eventos</li>
+            <li><a href="<?= base_url() ?>evento/evento_listar">Listar Eventos</a></li>
             <li class="active">Ver Evento</li>
         </ol>
     </section>
@@ -69,7 +70,9 @@
                         
 
                         <div class="box-footer">
-                            <button type="submit" class="btn btn-primary" onClick="window.history.back()">Voltar</button>
+                       <!-- <button type="submit" class="btn btn-primary" onClick="window.history.back()">Voltar</button> -->
+                            <a href="<?= base_url() ?>evento/evento_listar"><button type="button" class="btn btn-primary">Voltar</button></a>
+                            
                         </div>
                    
                 </div>
