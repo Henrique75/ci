@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/ci/ci/';
+$config['base_url'] = 'http://localhost/ci/';
 #$config['base_url'] = 'http://192.168.88.246:10080/ci/';
 #$config['base_url'] = 'http://localhost:10080/ci/';
 #$config['base_url'] = 'http://sge.rf.gd/principal/';
