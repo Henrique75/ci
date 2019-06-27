@@ -1,8 +1,8 @@
-<?php
+ <?php
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Login extends CI_Controller {
+class Cadastro extends CI_Controller {
 
     /**
      * Index Page for this controller.
@@ -21,11 +21,11 @@ class Login extends CI_Controller {
      */
     public function index() {
         $dados['titulo'] = "SiGE";
-        $dados['titulo_pagina'] = "Login";
-        $dados['pag_cadastro'] = "cadastro/";
+        $dados['titulo_pagina'] = "Cadastro";        
+        $dados['pag_login'] = "login";
         $dados['pag_principal'] = "principal";
         
-        $this->load->view('login/login',$dados);        
+        $this->load->view('cadastro/cadastro', $dados);
 //        $this->load->view('welcome_message');        
     }
 
