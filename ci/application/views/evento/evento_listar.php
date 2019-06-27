@@ -30,7 +30,7 @@
                                     <th>#</th>
                                     <th>ID</th>
                                     <th>Evento</th>
-                                    <th>Criado em:</th>
+                                    <th>Criado/Modificado em:</th>
                                     <th>Aberto?</th>
                                     <th>Ações</th>
                                 </tr>
@@ -42,7 +42,7 @@
                                     ?>
                                     <tr>
                                         <td><?php echo $num++; ?></td>
-                                        <td> <?php echo $ev->eve_id; ?></td>
+                                        <td><?php echo $ev->eve_id; ?></td>
                                         <td><?php echo $ev->eve_nome; ?></td>                                        
                                         <td><?php echo $ev->eve_datacadastro; ?></td>                                         
                                         <td><?php echo ( $ev->eve_aberto == 0 ? "Sim" : "Não" ); ?></td>
@@ -60,7 +60,7 @@
                                     <th>#</th>
                                     <th>ID</th>
                                     <th>Evento</th>
-                                    <th>Criado em:</th>
+                                    <th>Criado/Modificado em:</th>
                                     <th>Aberto?</th>
                                     <th>Ações</th>
                                 </tr>

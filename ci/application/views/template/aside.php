@@ -41,10 +41,10 @@
                     </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="<?php echo base_url()?>pagina/cadastrar_inicio"><i class="fa fa-circle-o"></i>Editar Home </a></li>
-                    <li><a href="<?php echo base_url() . "assets/"; ?>pages/charts/morris.html"><i class="fa fa-circle-o"></i> Morris</a></li>
-                    <li><a href="<?php echo base_url() . "assets/"; ?>pages/charts/flot.html"><i class="fa fa-circle-o"></i> Flot</a></li>
-                    <li><a href="<?php echo base_url() . "assets/"; ?>pages/charts/inline.html"><i class="fa fa-circle-o"></i> Inline charts</a></li>
+                    <li><a href="<?php echo base_url()?>pagina/cadastrar_inicio"><i class="fa fa-circle-o"></i>Eventos </a></li>
+                    <li><a href="<?php echo base_url() . "assets/"; ?>pages/charts/morris.html"><i class="fa fa-circle-o"></i> Participantes</a></li>
+                    <li><a href="<?php echo base_url() . "assets/"; ?>pages/charts/flot.html"><i class="fa fa-circle-o"></i> Instituições</a></li>
+                    <li><a href="<?php echo base_url() . "assets/"; ?>pages/charts/inline.html"><i class="fa fa-circle-o"></i> Organizações</a></li>
                 </ul>
             </li>                                    
 

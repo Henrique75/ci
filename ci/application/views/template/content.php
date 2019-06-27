@@ -9,7 +9,7 @@
         </h1>
         <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
-            <li class="active">Painel Principal</li>
+            <li class="active">Painel</li>
         </ol>
     </section>
 
@@ -28,7 +28,7 @@
                     <div class="icon">
                         <i class="ion ion-bag"></i>
                     </div>
-                    <a href="#" class="small-box-footer">Mais Informações <i class="fa fa-arrow-circle-right"></i></a>
+                    <a href="<?= base_url() ?>evento/evento_listar" class="small-box-footer">Mais Informações <i class="fa fa-arrow-circle-right"></i></a>
                 </div>
             </div>
             <!-- ./col -->
@@ -38,7 +38,7 @@
                     <div class="inner">
                         <h3>53<sup style="font-size: 20px">%</sup></h3>
 
-                        <p>Inscrições Efetivadas</p>
+                        <p>Inscrições Confirmadas</p>
                     </div>
                     <div class="icon">
                         <i class="ion ion-stats-bars"></i>
@@ -53,7 +53,7 @@
                     <div class="inner">
                         <h3>31</h3>
 
-                        <p>Pedidos de Inscrições</p>
+                        <p>Solicitações de Inscrições</p>
                     </div>
                     <div class="icon">
                         <i class="ion ion-person-add"></i>
